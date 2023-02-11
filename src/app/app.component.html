@@ -4,12 +4,12 @@
 
 <form>
 
-  Numero 1:<input type="text" [(ngModel)]="numero1" name="numero1">
+  Numero 1:<input type="number" [(ngModel)]="numero1" name="numero1">
   <br><br>
-  Numero 2:<input type="text" [(ngModel)]="numero2" name="number2">
+  Numero 2:<input type="number" [(ngModel)]="numero2" name="number2">
   <br><br>
 
-  <input type="submit" value="sumar">
+  <input type="submit" value="sumar" (click)="sumar()">
 
 
 
